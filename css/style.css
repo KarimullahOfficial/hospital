@@ -374,3 +374,8 @@ color: var(--bg--white);
   background-size: cover;
 
 }
+.blog-wrapper .blog-content
+{
+  background-color: lightblue;
+  padding: 2.5rem;
+}

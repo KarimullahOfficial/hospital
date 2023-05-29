@@ -1,4 +1,4 @@
-/* @media (max-width: 1199.5px) {
+@media (max-width: 1199.5px) {
   .card {
     padding: 2.5rem 1.875rem;
   }
@@ -36,6 +36,9 @@
   .card {
     padding: 1.875rem 1rem;
   }
+  .blog-wrapper .car .blog-content {
+    padding: 1.875rem 0.625rem;
+  }
 }
 @media (max-width: 767px) {
   .main-btn {
@@ -49,4 +52,7 @@
   h5 {
     font-size: 1.125rem;
   }
-} */
+  .blog-wrapper .card .blog-content {
+    margin: 0;
+  }
+}
