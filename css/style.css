@@ -247,7 +247,45 @@ animation-direction: alternate;
  gap: 5px; 
  color: var(--bg--white);
 }
+.service-wrapper h3
+{
+  color: var(--text-black);
+}
 .about-image
 {
   margin-top: -350px;
+}
+/* .card .icon-box
+{
+  margin: auto;
+}
+.card h3
+{
+  margin: auto;
+} */
+.service-wrapper  
+{
+  background-color: var(--bg-primary) !important ;
+}
+.service-wrapper   .card
+{
+  background-color: transparent;
+  border: 0.625rem solid blue;
+  box-shadow: none;
+  padding: 2.5rem;
+}
+.service-wrapper .card:hover
+{
+cursor: cell;
+background:lightblue;
+border-color: transparent;
+}
+.service-wrapper .card h4,
+.service-wrapper .card p
+{
+color: var(--bg--white);
+}
+.service-wrapper .card .icon-box
+{
+  margin-bottom: 1.875rem;
 }
