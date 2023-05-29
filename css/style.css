@@ -9,7 +9,7 @@
   --bg-primary: #21218f;
   --text-black: #000000;
   --text-secondary: #fc5184;
-  --bg-gar: #808080;
+  --bg-gar: #686666;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -39,6 +39,7 @@ body {
   text-transform: uppercase;
   border-radius: 0.1875rem;
   transition: all 0.3s ease-in-out;
+  background: var(--text-secondary);
 }
 .main-btn:hover {
   background: var(--text-secondary);
@@ -103,7 +104,7 @@ p{
 {
   border-radius: .625rem;
   background-color: var(--bg--white);
-  box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0 /8%);
+  box-shadow: .5084rem 1.1419rem 2.5rem 0 rgba(15, 9, 9, 0.08);
   padding: 3.75rem 3.125rem 4.6875rem;
   --webkit-transition:all .4s,
   transition: all .4s;
@@ -166,3 +167,65 @@ p{
   box-shadow: 0.5084rem 1.1419rem 2.5rem 0 rgb(0 0 0/8%);
   transition: 0.3s ease-in-out;
 }
+.banner-wrapper 
+{
+  background: url("../images/top-banner-img/Top-banner.jpg");
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+  
+}
+.banner-wrapper .top-right-sec
+{
+  position: relative;
+  background: url("../images/top-banner-img/top-right-bg.png");
+  background-repeat: no-repeat;
+ background-position: bottom;
+ background-size: contain;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+}
+.banner-wrapper .animate-image
+{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  --webkit-transform:translateX(-50%);
+  transform: translateX(-50%);
+
+}
+.banner-wrapper .animate-image .img1
+{
+left:-5.6875rem;
+position:absolute;
+--webkit-animation-name: movebounce;
+animation-name: movebounce;
+animation-delay: 100ms;
+--webkit-animation-name: movebounce;
+animation-iteration-count: infinite;
+--webkit-animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+--webkit-animation-timing-function: ease-in-out;
+animation-duration: 2s;
+--webkit-animation-duration: 2s;
+animation-direction: alternate;
+--webkit-animation-direction: alternate;
+
+}
+.home .icon-box
+{
+  text-align: center;
+  margin: auto;
+}
+.home .card:hover
+{
+  transform: rotateY(-0.625rem);
+  --webkit-transform: rotateY(-0.625rem);
+}
+.banner-wrapper p{
+  max-width: 80%;
+  color: var(--bg--white);
+}
+ 
+
