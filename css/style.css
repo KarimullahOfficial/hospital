@@ -65,15 +65,15 @@ h1 {
 }
 h2 {
   font-size: 2.75rem;
-
+ color: var(--bg--white);
   font-weight: 600;
  
 }
 h3 {
   font-size: 1.75rem;
-
+ color: var(--bg--white);
   font-weight: 600;
-  color: var(--bg--white);
+ 
 }
 h4 {
   font-size: 1.75rem;
@@ -291,7 +291,7 @@ color: var(--bg--white);
 }
 .team-wrapper .wrapper h2
 {
-  color:var(--text-black) !important;
+  color:var(--bg--white) !important;
 }
 /* .team-wrapper .wrapper
 {
@@ -320,7 +320,7 @@ color: var(--bg--white);
   align-items: center;
   justify-content: center;
 }
-.team-wrapper .team-info .social-network li a
+.team-wrapper .team-info .social-network li i
 {
   width: 1.5625rem;
   height:1.5625rem;
@@ -332,4 +332,25 @@ color: var(--bg--white);
    background-color: var(--bg-gar);
    color: var(--bg--white);
    transition: all 0 ease-in-out;
+   --webkit-transition: all 0.3s ease-in-out;
+}
+
+.team-wrapper .team-info .social-network li i:hover
+{
+  background-color: var(--text-secondary)!important;
+}
+.gallery-wrapper
+{
+  background: url("../images/gallery/gallery-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.gallery-wrapper  img
+{
+  border-radius: .9375rem;;
+}
+.gallery-wrapper  .wrapper h3
+{
+  color: var(--bg--white)!important;
 }
