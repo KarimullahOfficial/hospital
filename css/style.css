@@ -366,3 +366,11 @@ color: var(--bg--white);
 {
   background-color: #fc5184 !important;
 }
+.appoinment-wrapper
+{
+  background: url("../images/appointmnet-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
