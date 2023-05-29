@@ -379,3 +379,56 @@ color: var(--bg--white);
   background-color: lightblue;
   padding: 2.5rem;
 }
+/* .contact-wrapper .contact-info
+{
+  
+} */
+.contact-wrapper
+{
+  background: var(--bg-primary);
+}
+.contact-wrapper h5{
+  color: var(--bg--white);
+}
+.contact-wrapper .contact-info ul a{
+padding: 0;
+}
+.contact-wrapper ul li a::before
+{
+  content: '\f105';
+  font-family:  'Font Awsome 5 Free';
+  font-weight: 600;
+  position: absolute;
+  left: 0.3rem;
+  top:50%;
+  --webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+  
+.contact-wrapper    .link-widget  li   a:hover{
+  margin-left: .625rem;
+  color: var(--text-secondary);
+}
+.contact-wrapper    .link-widget  li   a
+{
+  margin-bottom: 3rem;
+  list-style: none;
+  font-size: .875rem;
+  list-style: none;
+}
+.contact-wrapper ul li a
+{
+ color: var(--bg--white);
+}
+.contact-wrapper ul li a,
+.contact-wrapper i,
+.contact-wrapper i ,a
+.contact-wrapper p
+{
+  font-size: .875rem;
+  color: var(--bg--white);
+  position: relative;
+  padding-left: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  --webkit-transition: all 0.3s ease-in-out;
+}
