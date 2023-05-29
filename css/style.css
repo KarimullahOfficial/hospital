@@ -65,13 +65,13 @@ h1 {
 }
 h2 {
   font-size: 2.75rem;
- color: var(--bg--white);
+ color: var(--text-black) !important;
   font-weight: 600;
  
 }
 h3 {
   font-size: 1.75rem;
- color: var(--bg--white);
+ color: var(--text-black);
   font-weight: 600;
  
 }
@@ -247,9 +247,12 @@ animation-direction: alternate;
  gap: 5px; 
  color: var(--bg--white);
 }
-.service-wrapper h3
+.service-wrapper .wrapper h3
 {
-  color: var(--text-black);
+  color: var(--text-black) !important;
+}
+.testmonoial-wrapper .wrapper h3{
+  color: var(--text-black) !important;
 }
 .about-image
 {
@@ -291,7 +294,7 @@ color: var(--bg--white);
 }
 .team-wrapper .wrapper h2
 {
-  color:var(--bg--white) !important;
+  color:var(--text-black) !important;
 }
 /* .team-wrapper .wrapper
 {
@@ -353,4 +356,13 @@ color: var(--bg--white);
 .gallery-wrapper  .wrapper h3
 {
   color: var(--bg--white)!important;
+}
+.testmonoial-wrapper  .card img
+{
+  border-radius: 50% !important;
+   
+} 
+.testmonoial-wrapper  .card  
+{
+  background-color: #fc5184 !important;
 }
