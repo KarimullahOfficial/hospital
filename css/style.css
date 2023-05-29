@@ -67,7 +67,7 @@ h2 {
   font-size: 2.75rem;
 
   font-weight: 600;
-  color: var(--bg--white);
+ 
 }
 h3 {
   font-size: 1.75rem;
@@ -288,4 +288,48 @@ color: var(--bg--white);
 .service-wrapper .card .icon-box
 {
   margin-bottom: 1.875rem;
+}
+.team-wrapper .wrapper h2
+{
+  color:var(--text-black) !important;
+}
+/* .team-wrapper .wrapper
+{
+  margin-top: 900px;
+} */
+.team-wrapper .wrapper  .card
+{
+  padding: 1.25rem;
+}
+.team-wrapper .wrapper  .card:hover
+{
+  --webkit-transform: translateY(-0.625rem);
+  transform: translateY(-0.625rem);
+}
+.team-wrapper .team-image
+{
+  margin: auto;
+}
+.team-wrapper .team-info .social-network
+{
+  --webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: .625rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-wrapper .team-info .social-network li a
+{
+  width: 1.5625rem;
+  height:1.5625rem;
+  line-height: 1.5625rem;
+   display: block;
+   border-radius: .3125rem;
+   margin: 0 .3125rem 0 0 ;
+   font-size: .75rem;
+   background-color: var(--bg-gar);
+   color: var(--bg--white);
+   transition: all 0 ease-in-out;
 }
